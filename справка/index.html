@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="connection" class="form-bigBlock">
+        <div class="form-container">
+            <div class="form-title">
+                <h2 class="form-bigTitle">Форма для связи с&nbsp;поддержкой</h2>
+                <button id="btnExit" class="form-btnExit">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="close 1">
+                        <path id="Vector" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="#C8C8C8"/>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="form-data">
+                <p class="form-smallTitle">Ваши контактные данные</p>
+                <div class="form-field">
+                    <input type="name" placeholder="Имя" class="form-field__data" required>
+                    <input type="name" placeholder="Фамилия" class="form-field__data" required>
+                    <input type="email" placeholder="Email" class="form-field__data" required>
+                    <input type="tel" placeholder="Телефон" class="form-field__data" required>
+                </div>
+                <div class="form-data">
+                    <p class="form-smallTitle">Ваш вопрос</p>
+                <textarea aria-label="Введите сообщение" placeholder="Напишите свой вопрос" class="form-field__text"></textarea>
+                </div>
+                <div class="form-blockBtn">
+                    <button class="form-blockBtn__cansel">Отменить</button>
+                    <button class="form-blockBtn__send">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-section">
+        <div id="program" class="block-programs">
+            <div class="book-question"> 
+                <div id="bookMark" class="bookmark"></div>
+            </div>
+            <div id="reference" class="container-reference">
+                <div class="reference-title">Справка по&nbsp;работе с&nbsp;системой</div>
+                <div class="reference-infoBlock">
+                    <div>
+                        <h2 class="reference-titleDown" >Программы производителя</h2>
+                        <div class="reference-textBlock">
+                            <img class="reference-icon" src="img/roundOne.jpg">
+                            <p class="reference-text">Вы&nbsp;можете создать акцию или стимулирующее мероприятие в&nbsp;нашей системе.</p>
+                        </div>
+                        <div class="reference-textBlock">
+                            <img class="reference-icon" src="img/roundTwo.jpg">
+                            <p class="reference-text">Вы&nbsp;будете видеть, какие магазины присоединились к&nbsp;ним и&nbsp;их&nbsp;выполнение условий стимулирующих мероприятий.</p>
+                        </div>
+                        <div class="reference-btnBlock">
+                            <button id="start" class="reference-btn">Запустить обучение</button>  
+                        </div>
+                    </div>
+                    <a id="aid" class="reference-downText">Написать в&nbsp;поддержку</a>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="js/help.js"></script>
+</body>
+</html>
